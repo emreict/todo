@@ -144,7 +144,7 @@ it('test "going shopping" entred correctly', ()=> {
         var enterKey = '\uE007';
         var dataLabel = 'label.title';
 
-        var dataText = '±!@#$%^&*()_+';
+        var dataText = ' ';
 
         browser.url('http://localhost:3000');
         browser.addValue(input,dataText + enterKey);
@@ -171,6 +171,6 @@ it('test "going shopping" entred correctly', ()=> {
            };
         }
 
-        found.should.be.equal(1);
+        found.should.be.equal(0);
     });
 });
