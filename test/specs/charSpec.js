@@ -35,7 +35,7 @@ describe('verify letters, numbers and special chars', ()=> {
         found.should.be.equal(1);
     });
 
-     it('test "going shopping" entred correctly', ()=> {
+     it('test "cooking diner" entred correctly', ()=> {
         var input = 'input[name="todo"]';
         var enterKey = '\uE007';
         var dataLabel = 'label.title';
@@ -70,7 +70,7 @@ describe('verify letters, numbers and special chars', ()=> {
         found.should.be.equal(1);
     });
 
-    it('test "going shopping" entred correctly', ()=> {
+    it('test "going to supermarket and buy tometos, egg, milk, cheese, 4*lemon, 1.5 kilos watermeloun" entred correctly', ()=> {
         var input = 'input[name="todo"]';
         var enterKey = '\uE007';
         var dataLabel = 'label.title';
@@ -105,7 +105,7 @@ describe('verify letters, numbers and special chars', ()=> {
         found.should.be.equal(1);
     });
 
-    it('test "going shopping" entred correctly', ()=> {
+    it('test "CLEAN THE ROOM, PLAY FOOTBALL" entred correctly', ()=> {
         var input = 'input[name="todo"]';
         var enterKey = '\uE007';
         var dataLabel = 'label.title';
@@ -139,12 +139,12 @@ describe('verify letters, numbers and special chars', ()=> {
 
         found.should.be.equal(1);
     });
-it('test "going shopping" entred correctly', ()=> {
+it('test "aaaaaaaaa" entred correctly', ()=> {
         var input = 'input[name="todo"]';
         var enterKey = '\uE007';
         var dataLabel = 'label.title';
 
-        var dataText = ' ';
+        var dataText = 'aaaaaaaaa';
 
         browser.url('http://localhost:3000');
         browser.addValue(input,dataText + enterKey);
@@ -171,6 +171,6 @@ it('test "going shopping" entred correctly', ()=> {
            };
         }
 
-        found.should.be.equal(0);
+        found.should.be.equal(1);
     });
 });
