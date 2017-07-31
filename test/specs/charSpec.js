@@ -1,5 +1,5 @@
 describe('verify letters, numbers and special chars', ()=> {
-
+    
     it('test "going shopping" entred correctly', ()=> {
         var input = 'input[name="todo"]';
         var enterKey = '\uE007';
@@ -171,6 +171,7 @@ it('test "aaaaaaaaa" entred correctly', ()=> {
            };
         }
 
-        found.should.be.equal(1);
+        found.should.be.equal(0);
     });
+    
 });
