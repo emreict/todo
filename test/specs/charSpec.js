@@ -171,7 +171,7 @@ it('test "aaaaaaaaa" entred correctly', ()=> {
            };
         }
 
-        found.should.be.equal(0);
+        found.should.be.equal(1);
     });
     
 });
