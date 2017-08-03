@@ -21,8 +21,8 @@
     "component-install": "component-install",
     "component-build": "component-build",
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    /*"postinstall": "npm install -g selenium-standalone",*/
-    "kill-selenium": "kill -15 $( lsof -i:4444 -t )"
+    "postinstall": "",
+    "kill-selenium": ""
   },
   "repository": {
     "type": "git",
