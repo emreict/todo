@@ -15,7 +15,8 @@
     "wdio-mocha-framework": "^0.5.8",
     "wdio-selenium-standalone-service": "0.0.8",
     "wdio-spec-reporter": "0.0.5",
-    "webdriverio": "^4.2.3"
+    "webdriverio": "^4.2.3",
+    "junit":"^1.4.9" 
   },
   "scripts": {
     "component-install": "component-install",
